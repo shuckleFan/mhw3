@@ -93,7 +93,7 @@ const valueOfName = encodeURI(url.searchParams.get('nome')); //usiamo il metodo 
 let selectedDiv = document.querySelector("h3");
 selectedDiv.textContent = decodeURI(valueOfName); 
 
-SearchMangaInfo();
+SearchMangaInfo(); //uso JIKAN API
 
 
 
